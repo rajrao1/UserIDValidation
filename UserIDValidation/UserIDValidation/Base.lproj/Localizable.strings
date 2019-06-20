@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  UserIDValidation
+
+  Created by Developer on 20/06/19.
+  Copyright © 2019 Developer. All rights reserved.
+*/
+"LoginId_Format_Invalid" = "Malformed login";
+"LoginId_Format_Valid" = "Login ID Valid";

@@ -15,6 +15,8 @@
 		8BAFAA1E22B368360023D639 /* UserIDValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFAA1D22B368360023D639 /* UserIDValidationTests.swift */; };
 		8BAFAA5922B393000023D639 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFAA5822B393000023D639 /* LoginViewModel.swift */; };
 		8BAFAA5B22B393770023D639 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFAA5A22B393770023D639 /* UserInfo.swift */; };
+		8BE4060C22BBD35A006DD495 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4060A22BBD35A006DD495 /* Localizable.strings */; };
+		8BE4060F22BBD787006DD495 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4060E22BBD787006DD495 /* LocalizedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		8BAFAA1F22B368360023D639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BAFAA5822B393000023D639 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		8BAFAA5A22B393770023D639 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		8BE4060B22BBD35A006DD495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = UserIDValidation/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8BE4060E22BBD787006DD495 /* LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				8BAFAA0C22B368330023D639 /* Main.storyboard */,
 				8BAFAA0F22B368350023D639 /* Assets.xcassets */,
 				8BAFAA1122B368350023D639 /* LaunchScreen.storyboard */,
+				8BE4060A22BBD35A006DD495 /* Localizable.strings */,
 				8BAFAA1422B368350023D639 /* Info.plist */,
 			);
 			path = UserIDValidation;
@@ -130,6 +135,7 @@
 		8BAFAA2B22B368E80023D639 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				8BE4060E22BBD787006DD495 /* LocalizedString.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BAFAA1322B368350023D639 /* LaunchScreen.storyboard in Resources */,
+				8BE4060C22BBD35A006DD495 /* Localizable.strings in Resources */,
 				8BAFAA1022B368350023D639 /* Assets.xcassets in Resources */,
 				8BAFAA0E22B368330023D639 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +246,7 @@
 				8BAFAA0B22B368330023D639 /* LoginViewController.swift in Sources */,
 				8BAFAA0922B368330023D639 /* AppDelegate.swift in Sources */,
 				8BAFAA5922B393000023D639 /* LoginViewModel.swift in Sources */,
+				8BE4060F22BBD787006DD495 /* LocalizedString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,14 @@
 				8BAFAA1222B368350023D639 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BE4060A22BBD35A006DD495 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE4060B22BBD35A006DD495 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

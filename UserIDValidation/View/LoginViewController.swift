@@ -20,7 +20,8 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         // UI updates
-        userIdSyntaxIssueLabel.text = "Malformed login"
+        userIdSyntaxIssueLabel.text = NSLocalizedString(LocalizedString.LoginView.LoginIdFormatInvalid, comment: "")
+        
         
         //  UI Changes Identify
         idTexField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
@@ -35,10 +36,10 @@ class LoginViewController: UIViewController {
     func updateInfomationLabel() {
         
         if (loginVM.isUserIdValid) {
-            self.userIdSyntaxIssueLabel.text = "Login ID Valid"
+            self.userIdSyntaxIssueLabel.text = NSLocalizedString(LocalizedString.LoginView.LoginIdFormatValid, comment: "")
             self.userIdSyntaxIssueLabel.isHidden = true;
         } else {
-            self.userIdSyntaxIssueLabel.text = "Malformed login"
+            self.userIdSyntaxIssueLabel.text = NSLocalizedString(LocalizedString.LoginView.LoginIdFormatInvalid, comment: "")
             self.userIdSyntaxIssueLabel.isHidden = false;
         }
     }
